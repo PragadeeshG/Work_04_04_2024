@@ -1,0 +1,15 @@
+create table if not exists model_view_config(
+model_code integer not null,
+view_code varchar(255) null,
+model_view_conf_error char null,
+mvc_id integer null,
+view_resolver varchar(255) null,
+dispatcher_servlet varchar(255) null,
+jakson_code integer null,
+xlm_version integer null,
+json_version varchar(255) null,
+data_source_count integer null,
+scan_datasource varchar(255) null,
+created_date varchar(255) null,
+entity_state varchar(255) null,
+constraint model_view_config_pk primary key(model_code));

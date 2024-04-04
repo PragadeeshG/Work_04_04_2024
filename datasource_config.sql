@@ -1,0 +1,15 @@
+create table if not exists datasource_config(
+config_id integer not null,
+url varchar(255) null,
+driver_class varchar(255) null,
+datasource_name varchar(255) null,
+username varchar(255) null,
+inital_schema_count integer null,
+password varchar(255) null,
+initial_connection varchar(255) null,
+connection_pool_size varchar(255) null,
+max_connection integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint datasource_config_pk primary key(config_id));

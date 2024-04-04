@@ -1,0 +1,15 @@
+create table if not exists datasource_view(
+data_master integer not null,
+master_history varchar(255) null,
+workflow_avail varchar(255) null,
+workflow_history varchar(255) null,
+master_unit integer null,
+hierarchy_level integer null,
+owner_count integer null,
+owner_view varchar(255) null,
+users_role varchar(255) null,
+users_entitlement varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint datasource_view_pk primary key(data_master));
